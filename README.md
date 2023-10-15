@@ -2,10 +2,10 @@
 <img src="./img/1.web.png" alt="GitHUB" align="center" >
 <img src="./img/2.web.png" alt="GitHUB" align="center" >
 <img src="./img/3.web.png" alt="GitHUB" align="center" >
-
-## "Mobile View :heart: :star:"
-<img src="./img/responsive.png" alt="GitHUB" align="center" >
-<img src="./img/responsive.2.png" alt="GitHUB" align="center" >
+<img src="./img/4.web.png" alt="GitHUB" align="center" >
+<img src="./img/5.web.png" alt="GitHUB" align="center" >
+<img src="./img/6.web.png" alt="GitHUB" align="center" >
+<img src="./img/7.web.png" alt="GitHUB" align="center" >
 
 
 # Getting Started with Image Search Engine App
