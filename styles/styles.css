@@ -15,7 +15,10 @@ body{
     background: var(--body-color);
     color: var(--text-color);
 }
-
+nav{
+    background: var(--body-color);
+    color: var(--text-color);
+}
 .dayAndTime{
     display: flex;
     justify-content: space-around;
