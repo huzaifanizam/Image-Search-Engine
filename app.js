@@ -65,11 +65,13 @@ const searchMoreBtn= document.getElementById("show-more-btn");
 
 const accessKey = "vFJzcZs6QRCDw9n6mm8uT94wH1sfe-33OibITYyjQk8";
 
+
 //Access Key vFJzcZs6QRCDw9n6mm8uT94wH1sfe-33OibITYyjQk8
 //Secret key cVLs1HDelY_GqpqjJPQVpDPHmsONYe13SbD74T62NWY
 
-let keyWord = "";
-let page = 1;
+
+let keyWord = "" ;
+let page = 1 ;
 
 async function searchImage() {
     keyWord = searchbox.value;
@@ -84,6 +86,7 @@ async function searchImage() {
         searchResult.innerHTML = "";
     }
 
+    
     results.map((result) => {
         const image = document.createElement("img");
         image.src = result.urls.small;
@@ -91,22 +94,24 @@ async function searchImage() {
         const imageLink = document.createElement("a");
         imageLink.href = result.links.html;
 
-        imageLink.target = "_blank"
+        imageLink.target = "_blank";
 
         imageLink.appendChild(image);
 
         searchResult.appendChild(imageLink);
     });
 
-    searchMoreBtn.style.display = "block"
+    searchMoreBtn.style.display = "block";
 
-}
+};
+
 
 searchForm.addEventListener("submit", (e)=>{
     e.preventDefault();
     page = 1;
     searchImage();
 });
+
 
 searchMoreBtn.addEventListener("click",()=>{
     page++;
